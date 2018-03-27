@@ -114,3 +114,15 @@ data/movie_reviews_train.csv
 data/train_sessions.csv
 data/train.zip
 data/test_sessions.csv
+data/test.json.gz
+data/test_author.txt.gz
+data/test_content.txt.gz
+data/test_published.txt.gz
+data/test_title.txt.gz
+data/train.json.gz
+data/train_author.txt.gz
+data/train_content.txt
+data/train_content.txt.gz
+data/train_log1p_recommends.csv
+data/train_published.txt.gz
+data/train_title.txt.gz
