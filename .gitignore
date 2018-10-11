@@ -8,7 +8,6 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-env/
 build/
 develop-eggs/
 dist/
@@ -20,9 +19,11 @@ lib64/
 parts/
 sdist/
 var/
+wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -42,8 +43,9 @@ htmlcov/
 .cache
 nosetests.xml
 coverage.xml
-*,cover
+*.cover
 .hypothesis/
+.pytest_cache/
 
 # Translations
 *.mo
@@ -52,6 +54,7 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+db.sqlite3
 
 # Flask stuff:
 instance/
@@ -60,15 +63,18 @@ instance/
 # Scrapy stuff:
 .scrapy
 
-
 # Sphinx documentation
 docs/_build/
 
 # PyBuilder
 target/
 
-# IPython Notebook
+# Jupyter Notebook
 .ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
 
 # pyenv
 .python-version
@@ -76,37 +82,37 @@ target/
 # celery beat schedule file
 celerybeat-schedule
 
-# dotenv
+# SageMath parsed files
+*.sage.py
+
+# Environments
 .env
-
-# Jupyter 
-*.DS_Store
-
-# virtualenv
+.venv
+env/
 venv/
 ENV/
+env.bak/
+venv.bak/
 
 # Spyder project settings
 .spyderproject
+.spyproject
 
 # Rope project settings
 .ropeproject
 
-# Hide solutions
-*_solution.ipynb
+# mkdocs documentation
+/site
 
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
-# Private folders
-*private/
+# large data files
+data/athlete_events.csv
 
-# Submission files
-*/output
-
-# IntelliJ IDEA.
-/.idea/
-/out/
-*.iml
-
+<<<<<<< HEAD
 # data
 data/faces/
 data/news_data/
@@ -126,3 +132,5 @@ data/train_content.txt.gz
 data/train_log1p_recommends.csv
 data/train_published.txt.gz
 data/train_title.txt.gz
+=======
+>>>>>>> upstream/master
