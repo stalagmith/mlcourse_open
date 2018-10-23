@@ -103,6 +103,7 @@ venv.bak/
 
 # mkdocs documentation
 /site
+<<<<<<< HEAD
 
 # mypy
 .mypy_cache/
@@ -133,4 +134,17 @@ data/train_log1p_recommends.csv
 data/train_published.txt.gz
 data/train_title.txt.gz
 =======
+>>>>>>> upstream/master
+=======
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# large data files
+data/athlete_events.csv
+
+# solutions
+*_solution.ipynb
 >>>>>>> upstream/master
